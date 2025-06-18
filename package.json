@@ -1,0 +1,37 @@
+{
+  "name": "dam",
+  "version": "1.0.0",
+  "description": "Digital Asset Management application with Native AI",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanmcmartin/dam.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanmcmartin/dam/issues"
+  },
+  "homepage": "https://github.com/ryanmcmartin/dam#readme",
+  "dependencies": {
+    "@google-cloud/storage": "^7.16.0",
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.0",
+    "multer": "^2.0.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
