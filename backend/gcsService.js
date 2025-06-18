@@ -32,7 +32,7 @@ const gcsUpload = async (file) => {
         `https://storage.googleapis.com/${bucket.name}/${blob.name}`
         );
 
-        return publicUrl
+        //return publicUrl
         //res.status(200).send(publicUrl);
     });
 
